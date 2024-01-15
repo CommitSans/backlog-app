@@ -10,14 +10,18 @@
       <!-- <ion-title>Cuphead</ion-title> -->
     </ion-toolbar>
   </ion-header>
+
   <ion-content>
-    <img alt="Silhouette of mountains" src="https://cdn2.steamgriddb.com/thumb/425bba74301311395421f24f0b2205d3.jpg" />
-    <ion-content class="ion-padding">
-      <h1>Cuphead</h1>
-      <p>Descripción</p>
-      <ion-button expand="block">Hacer algo</ion-button>
-    </ion-content>
+    <ion-img
+      src="https://cdn2.steamgriddb.com/hero_thumb/5988319f8fdeb1b2d254a9a38518f52e.jpg"
+      alt="The Wisconsin State Capitol building in Madison, WI at night"
+    ></ion-img>
+    <ion-img
+      src="https://cdn2.steamgriddb.com/thumb/4030e2eebb977639f8836aa25a293e40.jpg"
+      alt="The Wisconsin State Capitol building in Madison, WI at night"
+    ></ion-img>
   </ion-content>
+
 </template>
 
 <script lang="ts">
