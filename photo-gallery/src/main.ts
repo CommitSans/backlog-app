@@ -2,6 +2,10 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';
 
+// Importa Firebase
+import firebase from 'firebase/app';
+import 'firebase/firestore';
+
 import { IonicVue } from '@ionic/vue';
 
 /* Core CSS required for Ionic components to work properly */
