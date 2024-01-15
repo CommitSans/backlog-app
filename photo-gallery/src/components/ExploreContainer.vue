@@ -26,6 +26,10 @@
       </ion-item>
       <ion-item>
         <ion-icon aria-hidden="true" :icon="call" slot="start"></ion-icon>
+        <ion-label>Donate</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-icon aria-hidden="true" :icon="call" slot="start"></ion-icon>
         <ion-label>Log out</ion-label>
       </ion-item>
     </ion-list>
